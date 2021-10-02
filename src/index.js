@@ -4,6 +4,15 @@ export const Lexer = {
   keywords,
 };
 
+import { InvalidProgramError, InterpreterError } from './interpreter/errors';
+import { IncorrectIndentationException } from './parser/errors';
+
+export const Errors = {
+  InvalidProgramError,
+  InterpreterError,
+  IncorrectIndentationException
+};
+
 import * as ast from './ast';
 export const Ast = ast;
 
