@@ -1,6 +1,6 @@
 {
   "name": "@improviz/language",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "The language parser and interpreter for Improviz",
   "main": "lib/improviz-language.min.js",
   "scripts": {
